@@ -1,0 +1,32 @@
+name: listahive
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Añadido se colocaría any si desconoce la versión
+  # Para descargar una librería se pone flutter pub get
+  # hive: ^2.0.4
+  # hive_flutter: ^1.1.0
+  # path_provider: ^2.0.2
+  hive: any
+  hive_flutter: any
+  path_provider: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  #añadido
+  hive_generator: any
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
